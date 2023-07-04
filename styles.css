@@ -1,0 +1,273 @@
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+  }
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7rem;
+    background-color: rgb(238, 234, 231);
+    box-shadow: 0 2px 4px  rgba(0, 0, 0, 0.1);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+li a{
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.logo{
+    display: flex;
+    height: 100%;
+    width: 45%;
+    align-items: center;
+}
+.logo img{
+    max-height: 75px;
+    padding: 0;
+    margin: 0;
+}
+.WhatsApp img{
+    max-height: 75px;
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    margin: 0.5rem 1 rem 0 1 rem;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+nav li:first-child{
+    margin-right: 0;
+}
+nav li:last-child {
+    margin-right: 0;
+}
+nav a{
+    display: block;
+    padding: 0.5 rem 1 rem;
+    background-color: rgb(16, 23, 88);
+    color:#fff;
+    text-decoration: none;
+    border-radius: 1rem;
+    transition: backgorund-color 0.2s ;
+}
+nav a:hover{
+    background-color: #75b5b9;
+}
+@keyframes parallax {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+  
+    to {
+      transform: translate3d(0, 100px, 0);
+    }
+  }
+  .mainLogo{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .middleLogo {
+    background-image: url(/img/Untitled\ Project.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+  }
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 (9/16 * 100) */
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.content img {
+  width: 250px;
+  border-radius: 6%;
+}
+
+.mainContent {
+  height: 400px;
+  background-color: rgb(240, 234, 226);
+  display: flex;
+}
+
+.mainContent img {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+}
+
+.mainContent .sub {
+  background-color: rgb(244, 244, 244);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 40px;
+}
+.section2 {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.section2 .middleLogo {
+  background-image: url(/img/WhatsApp\ Image\ 2023-07-04\ at\ 12.32.37\ AM.jpeg);
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: -1;
+  padding: 0px;
+}
+.one img{
+width: 200x;
+height: 100px;
+margin: auto;
+
+}
+.section2 .middleLogo .one {
+  background-color: #162c62;
+  height: 500px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color:#ffffff;
+}
+
+.section2 .middleLogo .one .two {
+  margin: 10px;
+}
+
+.section2 .middleLogo .one div {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 50px;
+  }
+  
+  .section2 .middleLogo .one p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .footer {
+    height: 100px;
+    background-color: floralwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer img {
+    height: 40px;
+  }
+  .footer_con {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, 50px);
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(238, 234, 231);
+  }
+
+  a.back {
+    display: inline-block;
+  }
+  
+  .pala a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.582);
+  }
+  #back_logo {
+    transform: rotate(270deg);
+    width: 40px;
+    margin-left: 35px;}
+    #back_txt {
+        margin-left: 10px;
+}
+.pala{
+    grid-row: 5/6;
+    background-color: rgb(252, 252, 249);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .video-container{
+    color: #162c62;
+    padding: 1rem;
+    flex-direction: column;
+    display: flex;
+    height: 400px;
+    background-color: rgb(240, 234, 226);
+    display: flex;
+    
+  }
+  .video-container video {
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+  }
+  
+  .mainContent .sub{
+    background-color: rgb(244, 244, 244);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    padding: 40px;
+  }
+  
